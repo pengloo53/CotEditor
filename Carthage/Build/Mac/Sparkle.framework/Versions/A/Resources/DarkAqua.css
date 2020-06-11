@@ -1,10 +1,10 @@
 html {
-    color: white;
-    background: transparent;
+  color: white;
+  background: transparent;
 }
 :link {
-    color: #419CFF;
+  color: #419cff;
 }
 :link:active {
-    color: #FF1919;
+  color: #ff1919;
 }
