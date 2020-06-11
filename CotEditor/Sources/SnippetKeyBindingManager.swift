@@ -107,7 +107,7 @@ final class SnippetKeyBindingManager: KeyBindingManager {
         
         try super.validate(shortcut: shortcut, oldShortcut: oldShortcut)
         
-        // command key existance check
+        // command key existence check
         if shortcut.modifierMask.contains(.command) {
             throw InvalidKeySpecCharactersError(kind: .unwantedCommandKey, shortcut: shortcut)
         }

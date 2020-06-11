@@ -322,7 +322,7 @@
 - Fix an issue where theme was not applied to document print when the print theme setting is “Same as Document's Setting”.
 - Fix an issue where “Copy as Rich Text” command lost the style information when paste to some specific applications, such as Pages.
 - [beta] Fix an issue where theme color was not applied to document print.
-- [beta] Fix an issue where the editable area in editors are ocasionally set wrong after zooming on macOS 10.14 Mojave.
+- [beta] Fix an issue where the editable area in editors are occasionally set wrong after zooming on macOS 10.14 Mojave.
 
 ## 3.6.0-beta.3 (279)
 
@@ -354,7 +354,7 @@
 ### Known Issues
 
 - [Mojave] The title bar color is not correctly updated when the system appearance is changed.
-- [Mojave] The editable area in editors are ocasionally set wrong after zooming.
+- [Mojave] The editable area in editors are occasionally set wrong after zooming.
 
 ## 3.6.0-beta (276)
 
@@ -2398,7 +2398,7 @@
 
 ### Improvements
 
-- Rename “Spelling” menu item to “Spelling and Grammer” in Edit menu, and also add “Substitutions” and “Transformations” items
+- Rename “Spelling” menu item to “Spelling and Grammar” in Edit menu, and also add “Substitutions” and “Transformations” items
   - From this, remove “Uppercase”, “Lowercase” and “Capitalize” in “Utility” menu.
 - Update “Apache” syntax style:
   - Indent outline items.

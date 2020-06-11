@@ -45,7 +45,7 @@ final class StatableMenuToolbarItem: StatableToolbarItem {
             segmentedControl.setShowsMenuIndicator(true, forSegment: 1)
             segmentedControl.setMenu(self.segmentMenu, forSegment: 1)
         } else {
-            // jsut remove menu segment if the menu indicator is not supported
+            // just remove menu segment if the menu indicator is not supported
             segmentedControl.segmentCount = 1
             segmentedControl.setWidth(38, forSegment: 0)
             self.minSize.width = 44

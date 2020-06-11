@@ -141,7 +141,7 @@ extension String {
                 }
             }
             
-            // try ISO-2022-JP by checking existance of typical escape sequences
+            // try ISO-2022-JP by checking existence of typical escape sequences
             // -> It's not perfect yet works in most cases. (2016-01 by 1024p)
             if data.prefix(maxDetectionLength).contains(0x1B),
                 ISO2022JPEscapeSequences.contains(where: { data.range(of: $0) != nil }),

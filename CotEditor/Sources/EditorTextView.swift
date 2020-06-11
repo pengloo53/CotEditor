@@ -737,7 +737,7 @@ final class EditorTextView: NSTextView, Themable, CurrentLineHighlighting, Multi
         set {
             guard let font = newValue else { return }
             
-            // let LayoutManager have the font too to avoid the issue where the line height can be inconsistance by a composite font
+            // let LayoutManager have the font too to avoid the issue where the line height can be inconsistency by a composite font
             // -> Because `textView.font` can return a Japanese font
             //    when the font is for one-bites and the first character of the content is Japanese one,
             //    LayoutManager should not use `textView.font`.

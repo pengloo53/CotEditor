@@ -230,7 +230,7 @@ extension MultiCursorEditing where Self: NSTextView {
         
         guard let set = self.prepareForSelectionUpdate(ranges) else { return assertionFailure() }
         
-        // manually set ranges and insertionLocations separatelly to inform `affinity` to the receiver
+        // manually set ranges and insertionLocations separately to inform `affinity` to the receiver
         self.setSelectedRanges(set.selectedRanges, affinity: affinity, stillSelecting: false)
         self.insertionLocations = set.insertionLocations
         
@@ -266,7 +266,7 @@ extension MultiCursorEditing where Self: NSTextView {
         
         guard let set = self.prepareForSelectionUpdate(ranges) else { return assertionFailure() }
         
-        // manually set ranges and insertionLocations separatelly to inform `affinity` to the receiver
+        // manually set ranges and insertionLocations separately to inform `affinity` to the receiver
         self.setSelectedRanges(set.selectedRanges, affinity: affinity, stillSelecting: false)
         self.insertionLocations = set.insertionLocations
         self.selectionOrigins = newOrigins

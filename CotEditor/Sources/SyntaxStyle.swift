@@ -269,7 +269,7 @@ struct SyntaxStyle {
     
     // MARK: Public Methods
     
-    /// whether receiver has any syntax highlight defintion
+    /// whether receiver has any syntax highlight definition
     var hasHighlightDefinition: Bool {
         
         return (!self.highlightDefinitions.isEmpty || !self.pairedQuoteTypes.isEmpty || self.blockCommentDelimiters != nil || self.inlineCommentDelimiter != nil)
